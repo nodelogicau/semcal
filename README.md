@@ -19,3 +19,36 @@ for the Web. Some of these initiatives include:
 
 In applying these standards natively to a calendaring context, the Semantic Web provides support for a powerful graph
 of calendaring information.
+
+## Principles
+
+The principles of semantic calendaring can be divided into three areas: rich content, semantic data, and publishing.
+
+### Rich Content
+
+Calendar interoperability is both strengthened and limited by it's approach to backwards compatibility. Whilst catering to the
+lowest common denominator has ensured maximum compatibility across calendaring clients, it has meant that simple features
+such as rich content have struggled to gain traction.
+
+Whilst the introduction of the `STYLED-DESCRIPTION` property was intended to solve the issue of rich content support, it's
+implementation has been slow due to unclear guidelines on how it should be used.
+
+Semcal proposes the following principles around using rich content in semantic calendar objects:
+
+1. Every semantic calendar object SHOULD include a `STYLED-DESCRIPTION` property of content type `text/html`. This property SHOULD also
+   be derived content (indicated via the `DERIVED=TRUE` parameter) to promote consistency of HTML styling and formatting.
+2. A semantic calendar object SHOULD only be maintained via a single calendar user agent (CUA). This is to ensure that the rich content
+   in each `STYLED-DESCRIPTION` property is consistent with the rest of the object (e.g. we explicitly want to avoid updating the
+   `DESCRIPTION` property without updating the corresponding `STYLED-DESCRIPTION`. CUAs that don't support semantic calendaring SHOULD
+   remove any `STYLED-DESCRIPTION` properties if they update the `DESCRIPTION` to avoid propogating inconsistent data.
+3. A semantic calendar object SHOULD include a `LINK` property referring to a URL for editing/maintaining the object. This is specified
+   via the `LINKREL=edit` parameter, which should be incorporated into an update function in supporting CUAs. This is to support simultaneous
+   access to a calendar object (e.g. via CalDAV) using multiple clients.
+
+### Semantic Data
+
+TBD.
+
+### Publishing
+
+TBD.
