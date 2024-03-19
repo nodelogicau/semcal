@@ -47,7 +47,20 @@ Semcal proposes the following principles around using rich content in semantic c
 
 ### Semantic Data
 
-TBD.
+Until recently iCalendar did not include a standard mechanism for typing or metadata. It now provides two, with the inclusion of `CONCEPT`
+and `STRUCTURED-DATA` properties.
+
+The following principles for semantic data are proposed by semcal:
+
+1. Each semantic calendar object MUST include a `CONCEPT` property. This is used to specify the type of event, to-do, journal, etc.
+   represented by the calendar object. An example of a type could be a Meeting event, a Service Request to-do, or a Metric journal.
+   By specifying type information a richer interaction is facilitated between calendar user agents. NOTE: "vanilla" typing MUST also
+   be supported by providing types that represent event, to-do, journal, etc. without further specificity.
+2. A semantic calendar object SHOULD include linked data via the `STRUCTURED-DATA` property. Linked data is typically defined via
+   JSON-LD or RDFa formats (JSON and XML respectively), and allows for interactions with non-calendaring systems. For example, a
+   Web search engine may be able to parse the `STRUCTURED-DATA` property of semantic calendar objects in order to index the object
+   for improved search results.
+
 
 ### Publishing
 
