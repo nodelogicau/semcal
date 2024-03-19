@@ -64,4 +64,33 @@ The following principles for semantic data are proposed by semcal:
 
 ### Publishing
 
-TBD.
+Whilst many calendaring clients support subscribing to remote calendars, the reality is that most published events are statically
+imported to internal calendars either via Web links or email attachments.
+
+The following principles propose how to support subscriptions for updating individual events:
+
+1. A CUA supporting semantic calendar SHOULD create a topic named from the event `UID` value for each published event via a WebSub
+   hub. This hub is to be linked in the event via a `LINK` with `LINKREL=hub`. A recipient CUA SHOULD check for such `LINK`
+   properties and automatically subscribe to the topic corresponding to the event `UID`. The subscription duration should be at
+   least until the event has passed, but typically with an additional grace period to allow for updates including media related
+   to the event.
+2. Optionally, a CUA may choose to support reciprocal links for specific events via the Webmention standard. To support reciprocal
+   links a semantic calendar object MUST include a `LINK` property referring to a callback URL for posting a new link. This
+   property is identified via the `LINKREL=webmention` parameter. When creating new calendar objects that refer to another, CUAs
+   may check for a Webmention link in the related object and POST a link to the new event. The receiving CUA may optionally
+   require approval prior to updating the original event with the new link, but once approved would add a new `LINK` property
+   for the URL using the `LINKREL=replies` parameter.
+
+### Additional Linking
+
+The `LINK` property allows for additional linking between semantic calendar objects to support construction of a larger semantic
+graph.
+
+The following semcal principles demonstrate additional linking relationships:
+
+1. For recurring events, individual occurrences may be customized with additional information specifically for that instance.
+   With semcal, when customising such an instance the CUA SHOULD include a `LINK` property referring to the previous instance
+   via the `LINKREL=prev` parameter.
+2. Semantic calendaring objects SHOULD include authoring information via one or more `LINK` properties with a `LINKREL=author`
+   parameter.
+
