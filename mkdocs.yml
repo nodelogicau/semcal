@@ -3,7 +3,7 @@ site_url: https://www.semcal.org
 theme:
   name: material
   favicon: images/favicon.png
-  logo: images/logo-48.png
+  logo: images/semcal-logo.png
   features:
     - content.code.copy
 
