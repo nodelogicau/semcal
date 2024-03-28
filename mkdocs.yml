@@ -1,0 +1,20 @@
+site_name: Semantic Calendaring
+site_url: https://www.semcal.org
+theme:
+  name: material
+  favicon: images/favicon.png
+  logo: images/logo-48.png
+  features:
+    - content.code.copy
+
+repo_url: https://github.com/nodelogicau/semcal
+repo_name: nodelogicau/semcal
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/nodelogicau
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/in/benfortuna
+nav:
+  - Overview:
+    - Introduction: index.md
