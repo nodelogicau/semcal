@@ -71,5 +71,31 @@ nav:
       
   - Concepts:
     - Overview: concepts/index.md
+    - Action: concepts/action.md
+    - Asset: concepts/asset.md
+    - Availability: concepts/availability.md
+    - Event: concepts/event.md
+    - Issue: concepts/issue.md
+    - Metric: concepts/metric.md
+    - Note: concepts/note.md
+    - Observance: concepts/observance.md
+    - Participant: concepts/participant.md
+    - Request: concepts/request.md
   - Linking:
     - Overview: linking/index.md
+    - Alternate: linking/alternate.md
+    - Author: linking/author.md
+    - Bookmark: linking/bookmark.md
+    - Copyright: linking/copyright.md
+    - Edit: linking/edit.md
+    - External: linking/external.md
+    - Help: linking/help.md
+    - Hub: linking/hub.md
+    - Icon: linking/icon.md
+    - License: linking/license.md
+    - Next: linking/next.md
+    - Prev: linking/prev.md
+    - Related: linking/related.md
+    - Replies: linking/replies.md
+    - Self: linking/self.md
+    - Status: linking/status.md
