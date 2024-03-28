@@ -1,11 +1,12 @@
-# iCal4j Extensions - Concept
+# Semantic Calendaring - Concepts
 
-The iCalendar property `CONCEPT` was recently ratified as a standard way to classify iCalendar objects. These extensions
-provide some suggested classifications that represent common use-cases for different types of iCalendar objects.
+The iCalendar property `CONCEPT` was recently ratified as a standard way to classify iCalendar objects. 
+These extensions provide some suggested classifications that represent common use-cases for different 
+types of iCalendar objects.
 
 ## Overview
 
-The following iCal4j concepts are derived from the different structural patterns used to support different
+The following concepts are derived from the different structural patterns used to support different
 use-cases for iCalendar objects.
 
 These concepts include:
