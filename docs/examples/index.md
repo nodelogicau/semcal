@@ -14,12 +14,12 @@ your own.
 Templates are group by specific problem domains, or common scenarios that could benefit from the use of the
 iCalendar and vCard standards. These domains include:
 
-* [Groupware](groupware.md) - communicating and collaborating within and across teams
-* [Project](project.md) - project management objectives and tracking
-* [Agile](agile.md) - manage software development and other projects using Agile techniques
-* [Workflow](workflow.md) - respond to requests and manage approval workflows
-* [Catalog](catalog.md) - define and fulfil a collection of standard offerings
-* [Wiki](wiki.md) - knowledge management collaboration using Wiki concepts
+* [Groupware](groupware) - communicating and collaborating within and across teams
+* [Project](project) - project management objectives and tracking
+* [Agile](agile) - manage software development and other projects using Agile techniques
+* [Workflow](workflow) - respond to requests and manage approval workflows
+* [Catalog](catalog) - define and fulfil a collection of standard offerings
+* [Wiki](wiki) - knowledge management collaboration using Wiki concepts
 
 A template is a construct for building iCalendar and vCard objects for common use-cases.
 
