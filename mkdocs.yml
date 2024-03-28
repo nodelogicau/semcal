@@ -19,6 +19,6 @@ nav:
   - Overview:
     - Introduction: index.md
   - Concepts:
-    - Overview: concept/index.md
+    - Overview: concepts/index.md
   - Linking:
-    - Overview: link/index.md
+    - Overview: linking/index.md
