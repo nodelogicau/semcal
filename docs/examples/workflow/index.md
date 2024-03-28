@@ -1,4 +1,4 @@
-# iCal4j Template - Workflow
+# Semantic Calendaring - Workflow
 
 Workflow-related templates.
 

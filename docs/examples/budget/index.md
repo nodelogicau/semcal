@@ -1,4 +1,4 @@
-# iCal4j Template - Budget
+# Semantic Calendaring - Budget
 
 Budget management templates.
 

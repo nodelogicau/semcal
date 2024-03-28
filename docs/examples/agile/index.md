@@ -1,4 +1,4 @@
-# iCal4j Template - Agile
+# Semantic Calendaring - Agile
 
 Templates for working with Agile methodologies.
 

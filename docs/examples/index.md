@@ -1,4 +1,4 @@
-# iCal4j Template
+# Semantic Calendaring - Examples
 
 iCal4j Template provides prototypes for common iCalendar and vCard use-cases.
 

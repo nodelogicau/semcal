@@ -1,4 +1,4 @@
-# iCal4j Template - Wiki
+# Semantic Calendaring - Wiki
 
 Templates for maintaining a Wiki.
 

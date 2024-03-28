@@ -1,4 +1,4 @@
-# iCal4j Template - Catalog
+# Semantic Calendaring - Catalog
 
 Templates for managing a product or service catalog.
 

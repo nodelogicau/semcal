@@ -1,4 +1,4 @@
-# iCal4j Template - Project Management
+# Semantic Calendaring - Project Management
 
 Project management templates.
 
