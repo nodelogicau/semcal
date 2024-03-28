@@ -18,3 +18,7 @@ extra:
 nav:
   - Overview:
     - Introduction: index.md
+  - Concepts:
+    - Overview: concept/index.md
+  - Linking:
+    - Overview: link/index.md
