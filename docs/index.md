@@ -22,7 +22,8 @@ of calendaring information.
 
 ## Principles
 
-The principles of semantic calendaring can be divided into three areas: rich content, semantic data, and publishing.
+The principles of semantic calendaring can be divided into four areas: rich content, semantic data, linking
+and publishing.
 
 ### Rich Content
 
@@ -62,6 +63,20 @@ The following principles for semantic data are proposed by semcal:
    for improved search results.
 
 
+### Linking
+
+The `LINK` property allows for additional linking between semantic calendar objects to support construction of a 
+larger semantic graph.
+
+The following semcal principles demonstrate additional linking relationships:
+
+1. For recurring events, individual occurrences may be customized with additional information specifically for that instance.
+   With semcal, when customising such an instance the CUA SHOULD include a `LINK` property referring to the previous instance
+   via the `LINKREL=prev` parameter.
+2. Semantic calendaring objects SHOULD include authoring information via one or more `LINK` properties with a `LINKREL=author`
+   parameter.
+
+
 ### Publishing
 
 Whilst many calendaring clients support subscribing to remote calendars, the reality is that most published events are statically
@@ -80,17 +95,4 @@ The following principles propose how to support subscriptions for updating indiv
    may check for a Webmention link in the related object and POST a link to the new event. The receiving CUA may optionally
    require approval prior to updating the original event with the new link, but once approved would add a new `LINK` property
    for the URL using the `LINKREL=replies` parameter.
-
-### Additional Linking
-
-The `LINK` property allows for additional linking between semantic calendar objects to support construction of a larger semantic
-graph.
-
-The following semcal principles demonstrate additional linking relationships:
-
-1. For recurring events, individual occurrences may be customized with additional information specifically for that instance.
-   With semcal, when customising such an instance the CUA SHOULD include a `LINK` property referring to the previous instance
-   via the `LINKREL=prev` parameter.
-2. Semantic calendaring objects SHOULD include authoring information via one or more `LINK` properties with a `LINKREL=author`
-   parameter.
 
