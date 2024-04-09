@@ -9,13 +9,13 @@ specify multiple representations of a component.
 The following table compares the use of an alternate [LINK](https://www.rfc-editor.org/rfc/rfc9253.html#name-link) property against the
 [URL](https://www.rfc-editor.org/rfc/rfc5545.html#section-3.8.4.6) property.
 
-| Feature | LINK | URL |
-|---------|------|-----|
-| Supported in all components | Yes | Yes |
-| Multiple instances allowed | Yes | No |
-| Label support | Yes | No |
-| Multi-lingual support | Yes | No |
-| Media type support | Yes | No |
+| Feature                     | LINK | URL |
+|-----------------------------|------|-----|
+| Supported in all components | Yes  | Yes |
+| Multiple instances allowed  | Yes  | No  |
+| Label support               | Yes  | No  |
+| Multi-lingual support       | Yes  | No  |
+| Media type support          | Yes  | No  |
 
 
 ## Examples

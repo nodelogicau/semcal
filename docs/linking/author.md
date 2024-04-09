@@ -16,11 +16,11 @@ collaborators.
 
 The following table highlights the benefits of using a LINK of type author, vs other property types:
 
-| Feature | LINK | ORGANIZER | CONTACT |
-|---------|------|-----------|---------|
-| Multiple instances allowed | Yes | No | No |
-| Label support | Yes | Yes (CN parameter) | No |
-| Multi-lingual support | Yes | Yes | Yes |
+| Feature                    | LINK | ORGANIZER          | CONTACT |
+|----------------------------|------|--------------------|---------|
+| Multiple instances allowed | Yes  | No                 | No      |
+| Label support              | Yes  | Yes (CN parameter) | No      |
+| Multi-lingual support      | Yes  | Yes                | Yes     |
 
 
 ## Examples
