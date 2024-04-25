@@ -27,3 +27,4 @@ Link types include:
 * Replies
 * Self
 * Status
+* Webmention

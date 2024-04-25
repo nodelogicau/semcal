@@ -99,3 +99,8 @@ nav:
     - Replies: linking/replies.md
     - Self: linking/self.md
     - Status: linking/status.md
+    - Webmention: linking/webmention.md
+  - Publishing:
+      - Overview: publishing/index.md
+      - WebSub: publishing/websub.md
+      - Webmention: publishing/webmention.md
