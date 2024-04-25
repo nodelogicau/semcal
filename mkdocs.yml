@@ -18,8 +18,21 @@ extra:
 nav:
   - Overview:
     - Introduction: index.md
-    - Rich Content: rich-content/index.md
-    - Metadata: metadata/index.md
+  - Rich Content: rich-content/index.md
+  - Metadata:
+    - Overview: metadata/index.md
+    - Concepts:
+        - Overview: concepts/index.md
+        - Action: concepts/action.md
+        - Asset: concepts/asset.md
+        - Availability: concepts/availability.md
+        - Event: concepts/event.md
+        - Issue: concepts/issue.md
+        - Metric: concepts/metric.md
+        - Note: concepts/note.md
+        - Observance: concepts/observance.md
+        - Participant: concepts/participant.md
+        - Request: concepts/request.md
   - Linking:
       - Overview: linking/index.md
       - Alternate: linking/alternate.md
@@ -44,65 +57,52 @@ nav:
       - WebSub: publishing/websub.md
       - Webmention: publishing/webmention.md
   - Examples:
-        - Overview: examples/index.md
-        - Groupware:
-            - Overview: examples/groupware/index.md
-            - Meeting: examples/groupware/meeting.md
-            - Agenda: examples/groupware/agenda.md
-            - Action: examples/groupware/action.md
-            - Note: examples/groupware/note.md
-            - Attendance: examples/groupware/attendance.md
-            - Appointment: examples/groupware/appointment.md
-        - Project Management:
-            - Overview: examples/project/index.md
-            - Project: examples/project/project.md
-            - Objective: examples/project/objective.md
-            - Milestone: examples/project/milestone.md
-            - Task: examples/project/task.md
-            - Risk: examples/project/risk.md
-            - Issue: examples/project/issue.md
-            - Decision: examples/project/decision.md
-            - Timesheet: examples/project/timesheet.md
-        - Agile:
-            - Overview: examples/agile/index.md
-            - Sprint: examples/agile/sprint.md
-            - Backlog: examples/agile/backlog.md
-            - Story: examples/agile/story.md
-            - Epic: examples/agile/epic.md
-            - Criteria: examples/agile/criteria.md
-            - Retrospective: examples/agile/retrospective.md
-        - Workflow:
-            - Overview: examples/workflow/index.md
-            - Request: examples/workflow/request.md
-            - Approval: examples/workflow/approval.md
-            - Roster: examples/workflow/roster.md
-            - Metric: examples/workflow/metric.md
-        - Catalog:
-            - Overview: examples/catalog/index.md
-            - Offer: examples/catalog/offer.md
-            - Order: examples/catalog/order.md
-            - Fulfilment: examples/catalog/fulfilment.md
-        - Wiki:
-            - Overview: examples/wiki/index.md
-            - Article: examples/wiki/article.md
-            - Topic: examples/wiki/topic.md
-            - Definition: examples/wiki/definition.md
-            - Faq: examples/wiki/faq.md
-        - Budget:
-            - Overview: examples/budget/index.md
-            - Funding: examples/budget/funding.md
-            - Expense: examples/budget/expense.md
-            - Reimbursement: examples/budget/reimbursement.md
-      
-  - Concepts:
-    - Overview: concepts/index.md
-    - Action: concepts/action.md
-    - Asset: concepts/asset.md
-    - Availability: concepts/availability.md
-    - Event: concepts/event.md
-    - Issue: concepts/issue.md
-    - Metric: concepts/metric.md
-    - Note: concepts/note.md
-    - Observance: concepts/observance.md
-    - Participant: concepts/participant.md
-    - Request: concepts/request.md
+      - Overview: examples/index.md
+      - Groupware:
+          - Overview: examples/groupware/index.md
+          - Meeting: examples/groupware/meeting.md
+          - Agenda: examples/groupware/agenda.md
+          - Action: examples/groupware/action.md
+          - Note: examples/groupware/note.md
+          - Attendance: examples/groupware/attendance.md
+          - Appointment: examples/groupware/appointment.md
+      - Project Management:
+          - Overview: examples/project/index.md
+          - Project: examples/project/project.md
+          - Objective: examples/project/objective.md
+          - Milestone: examples/project/milestone.md
+          - Task: examples/project/task.md
+          - Risk: examples/project/risk.md
+          - Issue: examples/project/issue.md
+          - Decision: examples/project/decision.md
+          - Timesheet: examples/project/timesheet.md
+      - Agile:
+          - Overview: examples/agile/index.md
+          - Sprint: examples/agile/sprint.md
+          - Backlog: examples/agile/backlog.md
+          - Story: examples/agile/story.md
+          - Epic: examples/agile/epic.md
+          - Criteria: examples/agile/criteria.md
+          - Retrospective: examples/agile/retrospective.md
+      - Workflow:
+          - Overview: examples/workflow/index.md
+          - Request: examples/workflow/request.md
+          - Approval: examples/workflow/approval.md
+          - Roster: examples/workflow/roster.md
+          - Metric: examples/workflow/metric.md
+      - Catalog:
+          - Overview: examples/catalog/index.md
+          - Offer: examples/catalog/offer.md
+          - Order: examples/catalog/order.md
+          - Fulfilment: examples/catalog/fulfilment.md
+      - Wiki:
+          - Overview: examples/wiki/index.md
+          - Article: examples/wiki/article.md
+          - Topic: examples/wiki/topic.md
+          - Definition: examples/wiki/definition.md
+          - Faq: examples/wiki/faq.md
+      - Budget:
+          - Overview: examples/budget/index.md
+          - Funding: examples/budget/funding.md
+          - Expense: examples/budget/expense.md
+          - Reimbursement: examples/budget/reimbursement.md
