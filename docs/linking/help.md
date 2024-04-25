@@ -1,4 +1,4 @@
-# Semantic Calendaring - Help
+# Semantic Calendaring - Linking: Help
 
 A link to context-sensitive help.
 

@@ -1,10 +1,10 @@
-# Semantic Calendaring - Hub
+# Semantic Calendaring - Linking: Hub
 
 A link to a WebSub hub used for topic registration and subscription.
 
 ## Push Notifications
 
-WebSub is a W3C standard for publishing updates to subscribers on the Web. Typically,
+[WebSub](../publishing/websub.md) is a W3C standard for publishing updates to subscribers on the Web. Typically,
 this is used to publish Atom and RSS feed updates, however it also support other content
 types.
 

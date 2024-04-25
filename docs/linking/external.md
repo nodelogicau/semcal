@@ -1,4 +1,4 @@
-# Semantic Calendaring - External
+# Semantic Calendaring - Linking: External
 
 A link to a reference that is not part of the same context as the enclosing component.
 

@@ -1,4 +1,4 @@
-# Semantic Calendaring - Copyright
+# Semantic Calendaring - Linking: Copyright
 
 A link to copyright notices for the enclosing component.
 

@@ -1,4 +1,4 @@
-# Semantic Calendaring - Bookmark
+# Semantic Calendaring - Linking: Bookmark
 
 A permalink (bookmark) to the enclosing component.
 
