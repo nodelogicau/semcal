@@ -14,10 +14,16 @@ These concepts include:
 * [Event](event.md) - an opaque `VEVENT` object that may support recurrences.
 * [Observance](observance.md) - a transparent `VEVENT` object that may support recurrences.
 * [Action](action.md) - a `VTODO` object that is assignable to individuals for resolution. Supports recurrences.
-* [Issue](issue.md) - a `VTODO` object capturing a one-off impediment to other activities or actors. Does not support recurrences.
-* [Request](request.md) - a `VTODO` object representing a service request, often fulfilled via an [Action](action.md). May support recurrences.
-* [Note](note.md) - a `VJOURNAL` object capturing a note or annotation related to other activities or entities. Does not support recurrences.
+* [Issue](issue.md) - a `VTODO` object capturing a one-off impediment to other activities or actors. Does not 
+support recurrences.
+* [Request](request.md) - a `VTODO` object representing a service request, often fulfilled via an [Action](action.md).
+May support recurrences.
+* [Note](note.md) - a `VJOURNAL` object capturing a note or annotation related to other activities or entities. 
+Does not support recurrences.
 * [Metric](metric.md) - a `VJOURNAL` object used to measure past activities or entities. Supports recurrences.
-* [Availability](availability.md) - a `VAVAILABILITY` object that defines availability of an intangible or tangible resource. Supports recurrences.
-* [Asset](asset.md) - a `VRESOURCE` object representing a related asset. May be used when linking to external resources is insufficient.
-* [Contributor](participant) - a `PARTICIPANT` that defines additional roles/contributions beyond those supported by the participant type.
+* [Availability](availability.md) - a `VAVAILABILITY` object that defines availability of an intangible or tangible resource. 
+Supports recurrences.
+* [Asset](asset.md) - a `VRESOURCE` object representing a related asset. May be used when linking to external 
+resources is insufficient.
+* [Role](role.md) - a `PARTICIPANT` that defines additional roles/contributions beyond those supported by the 
+participant type.
