@@ -46,10 +46,14 @@ Semcal proposes the following principles around using rich content in semantic c
    via the `LINKREL=edit` parameter, which should be incorporated into an update function in supporting CUAs. This is to support simultaneous
    access to a calendar object (e.g. via CalDAV) using multiple clients.
 
-### Semantic Data
+### Templates
 
-Until recently iCalendar did not include a standard mechanism for typing or metadata. It now provides two, with the inclusion of `CONCEPT`
-and `STRUCTURED-DATA` properties.
+Templating is often used to apply sensible defaults and semantic metadata when creating new events and other objects. iCalendar has
+recently introduced two properties supporting semantic metadata: `CONCEPT` and `STRUCTURED-DATA`. Using `CONCEPT` we are able to
+provide more granular type information that allows CUAs to recognise and process objects differently.
+
+`STRUCTURED-DATA` allows us to capture or generate additional data formats beyond the scope of the iCalendar specification. We can
+embed agreed formats (such as JSON-LD) to enhance CUAs' interoperability. 
 
 The following principles for semantic data are proposed by semcal:
 
