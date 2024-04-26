@@ -4,8 +4,8 @@ Historically, Calendar User Agents (CUAs) have provided minimal support for temp
 such that sensible defaults are applied. For example, Microsoft Outlook supports the creation of both Appointments (for individual events)
 and Meetings (for group events), providing slight changes in the user interface (UI) to support creation of different `VEVENT` objects.
 
-Similarly, you may find when you create an "All Day Event" the `TRANSP` property will often default to `FREE`, whereas an event
-with a time component defaults to `BUSY`.
+Similarly, you may find when you create an "All Day Event" the Time Transparency property will often default to `TRANSPARENT`, whereas an event
+with a time component defaults to `OPAQUE`.
 
 These are all behaviours implemented independently by different CUAs, but a more consistent approach to templating can be achieved
 with the help of additional properties.
