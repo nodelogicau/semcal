@@ -19,8 +19,8 @@ nav:
   - Overview:
     - Introduction: index.md
   - Rich Content: rich-content/index.md
-  - Templates:
-    - Overview: metadata/index.md
+  - Templating:
+    - Overview: templating/index.md
     - Concepts:
         - Overview: concepts/index.md
         - Action: concepts/action.md

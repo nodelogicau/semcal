@@ -1,4 +1,4 @@
-# Semantic Calendaring - Templates
+# Semantic Calendaring - Templating
 
 Historically, Calendar User Agents (CUAs) have provided minimal support for templating supported iCalendar objects (notably `VEVENT`),
 such that sensible defaults are applied. For example, Microsoft Outlook supports the creation of both Appointments (for individual events)
