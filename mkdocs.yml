@@ -19,7 +19,7 @@ nav:
   - Overview:
     - Introduction: index.md
   - Rich Content: rich-content/index.md
-  - Metadata:
+  - Templates:
     - Overview: metadata/index.md
     - Concepts:
         - Overview: concepts/index.md
