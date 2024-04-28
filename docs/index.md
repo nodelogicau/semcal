@@ -2,7 +2,29 @@
 
 Semantic Calendaring explores the intersection of the Semantic Web with calendaring standards.
 
-## Overview
+## Introduction
+
+The Internet was designed to connect multiple disparate nodes spread across many different networks. And whilst
+it was intended to promote decentralisation of data, we increasingly see data siloed in proprietary systems
+for financial gain.
+
+### Open Standards
+
+To protect user rights to data ownership and control, we must strive to implement and evolve open standards, such
+as those defined by the Internet Engineering Task Force (IETF) and the World Wide Web Consortium (W3C). In this
+way we ensure maximum interoperability and data portability.
+
+### The Semantic Web
+
+The W3C and IETF have defined a number of standard to promote data sharing via common formats, such as the
+Resource Definition Framework (RDF), JSON Linked Data (JSON-LD) and the ATOM Syndication Format. Such standards
+define a shared model for both WHAT data can be shared and HOW it can be shared.
+
+Whilst such shared purpose models are useful for maximising data sharing, often we find more specific data formats
+and protocols can be more suited for specific types of data. One such example is the use of iCalendar for events
+and other time-based information.
+
+### iCalendar
 
 Calendaring standards such as iCalendar have increasing support for Semantic Web concepts via updated and extensions to
 the original specifications.
