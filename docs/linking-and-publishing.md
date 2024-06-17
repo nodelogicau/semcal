@@ -1,3 +1,11 @@
+[Indieweb.org]: https://indieweb.org/
+[What is the small web]: https://ar.al/2020/08/07/what-is-the-small-web/
+[Pinkback]: https://en.wikipedia.org/wiki/Pingback
+[Fighting Webmention spam]: https://brainbaking.com/post/2022/04/fighting-webmention-and-pingback-spam/
+[Webmention.io]: https://webmention.io/
+[Why I retired Webmention]: https://brainbaking.com/post/2023/05/why-i-retired-my-webmention-server/
+
+
 # A brief history of calendaring
 
 ## Overview
