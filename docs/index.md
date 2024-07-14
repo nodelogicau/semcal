@@ -2,6 +2,8 @@
 
 Semantic Calendaring explores the intersection of the Semantic Web with calendaring standards.
 
+![overview.mmd.svg](images/overview.mmd.svg)
+
 ## Introduction
 
 The Internet was designed to connect multiple disparate nodes spread across many different networks. And whilst
