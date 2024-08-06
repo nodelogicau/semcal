@@ -7,14 +7,19 @@ Semantic Calendaring explores the intersection of the Semantic Web with calendar
 ## Introduction
 
 The Internet was designed to connect multiple disparate nodes spread across many different networks. And whilst
-it was intended to promote decentralisation of data, we increasingly see data siloed in proprietary systems
-for financial gain.
+it was intended to promote decentralisation of data, we increasingly see data siloed in applications with little
+or no interoperability with other systems.
+
+Common protocols for interoperability are often an afterthought for many modern applications, instead focusing on
+their own custom APIs and protocols. Whilst APIs are useful, it just isn't practical to implement all of the APIs
+defined by applications for interoperability.
+
 
 ### Open Standards
 
-To protect user rights to data ownership and control, we must strive to implement and evolve open standards, such
+To maximise the usefulness of data, and protect user rights to data ownership, we must strive to implement and evolve open standards, such
 as those defined by the Internet Engineering Task Force (IETF) and the World Wide Web Consortium (W3C). In this
-way we ensure maximum interoperability and data portability.
+way we ensure system interoperability and data portability.
 
 ### The Semantic Web
 
@@ -70,9 +75,9 @@ Semcal proposes the following principles around using rich content in semantic c
    via the `LINKREL=edit` parameter, which should be incorporated into an update function in supporting CUAs. This is to support simultaneous
    access to a calendar object (e.g. via CalDAV) using multiple clients.
 
-### Templates
+### Metadata
 
-Templating is often used to apply sensible defaults and semantic metadata when creating new events and other objects. iCalendar has
+Templates are often used to apply sensible defaults and semantic metadata when creating new events and other objects. iCalendar has
 recently introduced two properties supporting semantic metadata: `CONCEPT` and `STRUCTURED-DATA`. Using `CONCEPT` we are able to
 provide more granular type information that allows CUAs to recognise and process objects differently.
 
