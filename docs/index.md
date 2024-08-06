@@ -1,8 +1,8 @@
 # Semantic Calendaring
 
-Semantic Calendaring explores the intersection of the Semantic Web with calendaring standards.
+Semantic Calendaring explores how interoperability of calendaring and scheduling applications
+may be improved via the combination of the Semantic Web with calendaring standards.
 
-![overview.mmd.svg](images/overview.mmd.svg)
 
 ## Introduction
 
@@ -11,25 +11,27 @@ it was intended to promote decentralisation of data, we increasingly see data si
 or no interoperability with other systems.
 
 Common protocols for interoperability are often an afterthought for many modern applications, instead focusing on
-their own custom APIs and protocols. Whilst APIs are useful, it just isn't practical to implement all of the APIs
-defined by applications for interoperability.
+their own custom APIs and protocols. Whilst these APIs may be useful for single client/server connectivity, it
+becomes impractical to implement support for multiple applications using different APIs.
 
 
 ### Open Standards
 
-To maximise the usefulness of data, and protect user rights to data ownership, we must strive to implement and evolve open standards, such
-as those defined by the Internet Engineering Task Force (IETF) and the World Wide Web Consortium (W3C). In this
-way we ensure system interoperability and data portability.
+To maximise the usefulness of data, and protect user rights to data portability, we must strive to implement and
+evolve open standards, such as those defined by the Internet Engineering Task Force (IETF) and the World Wide Web
+Consortium (W3C). In this way we ensure greater system interoperability and data portability.
+
 
 ### The Semantic Web
 
-The W3C and IETF have defined a number of standard to promote data sharing via common formats, such as the
+The W3C and IETF have defined many standards to promote data sharing via common formats, such as the
 Resource Definition Framework (RDF), JSON Linked Data (JSON-LD) and the ATOM Syndication Format. Such standards
-define a shared model for both WHAT data can be shared and HOW it can be shared.
+define a general model for both **what** data can be shared and **how** it can be shared.
 
-Whilst such shared purpose models are useful for maximising data sharing, often we find more specific data formats
+Whilst such general purpose models are useful for enabling data sharing, often we find more specific data formats
 and protocols can be more suited for specific types of data. One such example is the use of iCalendar for events
-and other time-based information.
+and other temporal-based information.
+
 
 ### iCalendar
 
@@ -49,10 +51,13 @@ for the Web. Some of these initiatives include:
 In applying these standards natively to a calendaring context, the Semantic Web provides support for a powerful graph
 of calendaring information.
 
+
 ## Principles
 
-The principles of semantic calendaring can be divided into four areas: rich content, semantic data, linking
+The principles of semantic calendaring can be divided into four areas: rich content, semantic metadata, linking
 and publishing.
+
+![overview.mmd.svg](images/overview.mmd.svg)
 
 ### Rich Content
 
