@@ -16,12 +16,13 @@ extra:
       link: https://github.com/nodelogicau
     - icon: fontawesome/brands/linkedin
       link: https://linkedin.com/in/benfortuna
+
 nav:
   - Home:
     - Introduction: index.md
-      - Examples:
-        - Overview: examples/index.md
-        - Groupware:
+    - Examples:
+      - Overview: examples/index.md
+      - Groupware:
           - Overview: examples/groupware/index.md
           - Meeting: examples/groupware/meeting.md
           - Agenda: examples/groupware/agenda.md
@@ -29,7 +30,7 @@ nav:
           - Note: examples/groupware/note.md
           - Attendance: examples/groupware/attendance.md
           - Appointment: examples/groupware/appointment.md
-        - Project Management:
+      - Project Management:
           - Overview: examples/project/index.md
           - Project: examples/project/project.md
           - Objective: examples/project/objective.md
@@ -39,7 +40,7 @@ nav:
           - Issue: examples/project/issue.md
           - Decision: examples/project/decision.md
           - Timesheet: examples/project/timesheet.md
-        - Agile:
+      - Agile:
           - Overview: examples/agile/index.md
           - Sprint: examples/agile/sprint.md
           - Backlog: examples/agile/backlog.md
@@ -47,18 +48,18 @@ nav:
           - Epic: examples/agile/epic.md
           - Criteria: examples/agile/criteria.md
           - Retrospective: examples/agile/retrospective.md
-        - Workflow:
+      - Workflow:
           - Overview: examples/workflow/index.md
           - Request: examples/workflow/request.md
           - Approval: examples/workflow/approval.md
           - Roster: examples/workflow/roster.md
           - Metric: examples/workflow/metric.md
-        - Catalog:
+      - Catalog:
           - Overview: examples/catalog/index.md
           - Offer: examples/catalog/offer.md
           - Order: examples/catalog/order.md
           - Fulfilment: examples/catalog/fulfilment.md
-        - Wiki:
+      - Wiki:
           - Overview: examples/wiki/index.md
           - Article: examples/wiki/article.md
           - Topic: examples/wiki/topic.md
