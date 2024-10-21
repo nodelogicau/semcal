@@ -6,6 +6,7 @@ theme:
   logo: images/semcal-logo.png
   features:
     - content.code.copy
+    - navigation.tabs
 
 repo_url: https://github.com/nodelogicau/semcal
 repo_name: nodelogicau/semcal
