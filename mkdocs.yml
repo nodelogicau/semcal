@@ -65,8 +65,14 @@ nav:
           - Topic: examples/wiki/topic.md
           - Definition: examples/wiki/definition.md
           - Faq: examples/wiki/faq.md
+      - Budget:
+          - Overview: examples/budget/index.md
+          - Funding: examples/budget/funding.md
+          - Expense: examples/budget/expense.md
+          - Reimbursement: examples/budget/reimbursement.md
           
   - Rich Content: rich-content/index.md
+  
   - Metadata:
     - Overview: metadata/index.md
     - Concepts:
@@ -81,6 +87,7 @@ nav:
         - Observance: concepts/observance.md
         - Participant: concepts/participant.md
         - Request: concepts/request.md
+        
   - Linking:
       - Overview: linking/index.md
       - Alternate: linking/alternate.md
@@ -100,13 +107,9 @@ nav:
       - Self: linking/self.md
       - Status: linking/status.md
       - Webmention: linking/webmention.md
+      
   - Publishing:
       - Overview: publishing/index.md
       - WebSub: publishing/websub.md
       - Webmention: publishing/webmention.md
 
-      - Budget:
-          - Overview: examples/budget/index.md
-          - Funding: examples/budget/funding.md
-          - Expense: examples/budget/expense.md
-          - Reimbursement: examples/budget/reimbursement.md
